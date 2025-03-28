@@ -1,0 +1,64 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Gilroy";
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  place-content: center;
+}
+
+#card {
+  background-color: #fff;
+  padding: 2rem 2rem;
+  display: flex;
+  flex-direction: column;
+  place-items: center;
+  gap: 2rem;
+}
+#card h1 {
+  color: #020079;
+  font-size: 3rem;
+}
+#card .winner {
+  color: rgb(104, 0, 117);
+  font-size: 3.5rem;
+  text-transform: uppercase;
+  text-align: center;
+}
+#card .img {
+  width: 200px;
+  border: none;
+}
+#card .img img {
+  aspect-ratio: 1/1;
+  width: 100%;
+  -o-object-fit: contain;
+     object-fit: contain;
+  border: none;
+  border-radius: 10rem;
+}
+#card h2 {
+  padding: 1rem;
+  background-color: rgb(221, 220, 220);
+  text-transform: uppercase;
+  text-align: center;
+  border-radius: 0.5rem;
+  font-size: 3rem;
+}
+#card button {
+  background-color: lightseagreen;
+  border: none;
+  border-radius: 0.5rem;
+  padding: 1rem 2rem;
+  font-size: 1.5rem;
+}
+#card button:active {
+  scale: 0.95;
+}
